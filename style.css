@@ -1,0 +1,616 @@
+/* Image by <a href="https://pixabay.com/photos/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=336371">Free-Photos</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=336371">Pixabay</a> */
+
+body
+{
+	background-color:#000000;
+		font-family: 'Montserrat', sans-serif;
+}
+/* font-family: 'Montserrat', sans-serif; */
+
+#opakowanie
+{
+	background-color:#000000;
+}
+
+#zdjecie img
+{
+	width:100%;
+}
+
+.nakladka
+{
+	position:relative;
+}
+
+.kontakt
+{
+	position:absolute;
+	right:2%;
+	bottom:3%;
+	text-align:right;
+	font-size:25px;
+	font-family: 'Montserrat', sans-serif;
+	line-height:220%;
+	font-weight:400;
+	font-style:italic;
+	color:#000000;
+}
+
+.logo
+{
+	position:absolute;
+	left:3%;
+	bottom:4%;
+	text-align:left;
+	font-size:25px;
+	font-family: 'Montserrat', sans-serif;
+	line-height:280%;
+	font-weight:400;
+	font-style:italic;
+	color:#000000;
+}
+
+.logo span
+{
+	font-size:50px;
+	font-weight:600;
+	color:#007bff;
+}
+
+.kontakt a
+{
+	color:#000;
+	transition:color 0.3s ease;
+}
+
+.kontakt a:hover
+{
+	color:#0056b3;
+	text-decoration:none;
+}
+
+.navbar-brand
+{
+	font-family: 'Montserrat', sans-serif;
+}
+
+
+#glowna
+{
+	width:100%;
+	text-align:center;
+	background-color:#000000;
+}
+
+#glowna article
+{
+	width:100%;
+}
+
+#glowna h1
+{
+	padding:20px 0 15px 0;
+	font-size:50px;
+	letter-spacing:1px;
+	text-align:center;
+	color:#0088ff;
+	font-family: 'Montserrat', sans-serif;
+	line-height:150%;
+}
+
+.suratel
+{
+	font-size:60px;
+	font-weight:300;
+	letter-spacing:1px;
+	color:#fff;
+}
+
+#glowna h3
+{
+	text-align:center;
+	letter-spacing:1px;
+	line-height:170%;
+	padding-bottom:20px;
+	color:#aaa;
+}
+
+.fotos
+{
+	margin:0;
+	padding:0;
+}
+
+.opaska
+{
+	border-top:1px solid #08f;
+	margin:0;
+}
+
+.fotofooter
+{
+	padding:0;
+	overflow:hidden;
+}
+
+.fotofooter img
+{
+	width:100%;
+}
+
+.overlay
+{
+	position:relative;
+	width:100%;
+	height:100%;
+	overflow:hidden;
+}
+
+.overlay img
+{
+	transition:all 0.5s ease-in-out;
+}
+
+.overlay:hover img 
+{
+	-webkit-transform:scale(1.05);
+	-ms-transform:scale(1.05);
+	transform:scale(1.05);
+}
+
+.overlay p
+{
+	color:#fff;
+	font-size:20px;
+	text-align:center;
+	line-height:250%;
+	position:absolute;
+	display:block;
+	width:100%;
+	height:25%;
+	background-color:#111;
+	left:0;
+	bottom:0;
+	margin:0;
+	opacity:0;
+	transition: all 0.5s ease-in-out;
+}
+ 
+.srodek p
+{
+	line-height:140%;
+}
+
+.overlay:hover p
+{
+	opacity:0.9;
+	border:4px solid #000;
+}
+
+.instalacje
+{
+	float:left;
+	padding:10px 0;
+}
+
+.instalacje h1
+{
+	padding:10px 0;
+	font-size:40px;
+	color:#fff;
+}
+
+.instalacje p
+{
+	padding:10px 0;
+	font-size:22px;
+	color:#ccc;
+}
+
+.instalacje p span
+{
+	
+	font-size:27px;
+	font-weight:300;
+}
+
+.zdjecieins
+{
+	float:right;
+}
+
+.zdjecieins img
+{
+	width:350px;
+	border:5px solid #fff;
+	border-radius:7px;
+	margin:5px 0 5px 10px;
+}
+
+.swiatlowodowe 
+{
+	color:#ddd;
+	font-size: 22px;
+}
+
+.biale img
+{
+		border:5px solid #333;
+}
+
+.kont
+{
+	float:left;
+	color:#fff;
+	padding:25px;
+}
+
+.kont p
+{
+	font-size:30px;
+	text-align:left;
+}
+
+.kont p span
+{
+	font-size:45px;
+	letter-spacing:1px;
+}
+
+.kontzdjecie
+{
+	float:left;
+	padding:20px;
+	padding-top:100px;
+}
+
+.kontzdjecie img
+{
+	width:100%;
+	border:5px solid #fff;
+	border-radius:7px;
+
+}
+
+.fon img
+{
+	width:100%;
+}
+
+.stopka
+{
+	background-color:#000;
+	text-align:center;
+	font-size:25px;
+	border-top:2px solid #0055ee;
+	border-bottom:2px solid #0055ee;
+	
+}
+
+.stopka p
+{
+	margin:0;
+	text-align:center;
+	width:100%;
+	line-height:200%;
+	padding:10px 0 10px 0;
+	color:#575757;
+}
+
+
+@media(max-width: 575px)
+{
+	#glowna h1
+	{
+		font-size:20px;
+	}
+	
+	#glowna h1 span
+	{
+		font-size:25px;
+	}
+	
+	.nakladka .kontakt
+	{
+		font-size:7px;
+		line-height:170%;
+	}
+	
+	.nakladka p
+	{
+		margin-bottom:4px;
+	}
+	
+	.nakladka .logo
+	{
+		font-size:10px;
+		line-height:150%;
+	}
+	
+	.logo span
+	{
+		font-size:20px;
+		line-height:170%;
+	}
+	
+	main h3
+	{
+		font-size:12px;
+	}
+	
+	.opaska
+	{
+		border-top:0;
+	}
+	
+	.overlay p
+	{
+		font-size:12px;
+		opacity:0.9;
+		border:4px solid #000;
+	}
+	
+	.instalacje h1
+	{
+		font-size:22px;
+		margin-left:10px;
+	}
+	
+	.instalacje p
+	{
+		font-size:17px;
+		margin-left:10px;
+	}
+	
+	.instalacje p span
+	{
+		
+		font-size:18px;
+		margin-left:10px;
+	}
+
+	.zdjecieins img
+	{
+		width:180px;
+		border:3px solid #fff;
+		border-radius:4px;
+		margin:010px;
+	}
+	
+	.swiatlowodowe 
+	{
+		font-size: 18px;
+	}
+	
+	.kontzdjecie
+	{
+		float:left;
+		padding:20px;
+		padding-top:0px;
+	}
+	
+	.kontzdjecie img
+	{
+		width:100%;
+		border:3px solid #fff;
+		border-radius:4px;
+	}
+	
+	.kont p
+	{
+		font-size:25px;
+		text-align:center;
+	}
+	
+	.podstopka p
+	{
+		font-size:15px;
+	}
+	
+	.stopka
+	{
+		font-size:13px;
+	}
+}
+
+@media(min-width: 576px) and (max-width: 768px)
+{
+	#glowna h1
+	{
+		font-size:25px;
+	}
+	
+	#glowna h1 span
+	{
+		font-size:30px;
+	}
+	.nakladka .kontakt
+	{
+		font-size:10px;
+	}
+	
+	.nakladka .logo
+	{
+		font-size:10px;
+		line-height:180%;
+	}
+	
+	.logo span
+	{
+		font-size:25px;
+		line-height:170%;
+	}
+	
+	main h3
+	{
+		font-size:16px;
+	}
+	
+	.overlay p
+	{
+		font-size:13px;
+		opacity:0.9;
+		border:4px solid #000;
+	}
+	
+	.zdjecieins img
+	{
+		width:230px;
+	}
+	
+	.kontzdjecie
+	{
+		padding-top:0px;
+	}
+	
+	.podstopka p
+	{
+		font-size:17px;
+	}
+	
+	.stopka
+	{
+		font-size:16px;
+	}
+}
+
+@media(min-width: 768px) and (max-width: 992px)
+{
+	#glowna h1
+	{
+		font-size:35px;
+	}
+	
+	#glowna h1 span
+	{
+		font-size:40px;
+	}
+	
+	.nakladka .kontakt
+	{
+		font-size:15px;
+	}
+	
+	.nakladka .logo
+	{
+		font-size:15px;
+		line-height:200%;
+	}
+	
+	.logo span
+	{
+		font-size:35px;
+		line-height:190%;
+	}
+	
+	main h3
+	{
+		font-size:20px;
+	}
+
+	.overlay p
+	{
+		font-size:16px;
+	}	
+	
+	.kontzdjecie
+	{
+		padding-top:0px;
+	}
+	
+	.podstopka p
+	{
+		font-size:22px;
+	}
+	
+	.stopka
+	{
+		font-size:19px;
+	}
+}	
+
+@media(min-width: 992px) and (max-width: 1200px)
+{
+	#glowna h1
+	{
+		font-size:45px;
+	}
+	
+	#glowna h1 span
+	{
+		font-size:50px;
+	}
+	
+	.nakladka .kontakt
+	{
+		font-size:20px;
+	}
+	
+	.nakladka .logo
+	{
+		font-size:20px;
+		line-height:200%;
+	}
+	
+	.logo span
+	{
+		font-size:45px;
+		line-height:220%;
+	}
+	
+	main h3
+	{
+		font-size:23px;
+	}
+	
+	.overlay p
+	{
+		font-size:14px;
+		height:33%;
+	}
+	
+	.malysrodek p
+	{
+		line-height:150%;
+	}
+	
+	.podstopka p
+	{
+		font-size:27px;
+	}
+	
+	.stopka
+	{
+		font-size:22px;
+	}
+	
+}
+
+@media(min-width: 1201px) and (max-width: 1450px)
+{
+	.overlay p
+	{
+		font-size:16px;
+		height:33%;
+	}
+	
+	.malysrodek p
+	{
+
+	}
+}
+
+@media(min-width: 1451px) and (max-width: 1650px)
+{
+	.overlay p
+	{
+		font-size:18px;
+		height:33%;
+		border:3px solid #000;
+	}
+	
+	.malysrodek p
+	{
+		line-height:140%;
+	}
+}

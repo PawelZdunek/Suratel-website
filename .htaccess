@@ -1,0 +1,14 @@
+### PROTECT FILES ###
+<FilesMatch "\.(htaccess|htpasswd|ini|fla|psd|log|sh)$">
+Order Allow,Deny
+Deny from all
+</FilesMatch>
+
+RewriteEngine on
+RewriteRule strona-glowna index.html
+	RewriteRule instalacja-i-konfiguracja-systemow-telekomunikacyjnych telekomunikacja.html
+	RewriteRule instalacja-i-konfiguracja-monitoringu-IP monitoring.html
+	RewriteRule instalacja-i-konfiguracja-systemow-alarmowych alarmowe.html
+	RewriteRule wykonastwo-sieci-teleinformatycznych-i-swiatlowodowych teleinformatyka.html
+RewriteRule serwis-jaki-oferujemy serwis.html
+RewriteRule skontaktuj-sie-z-nami kontakt.html
